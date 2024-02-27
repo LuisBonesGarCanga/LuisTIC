@@ -17,14 +17,33 @@
 <h2>Mis ejercicios Introducción HTML</h2>
 
   <ol>
-    <li> Ejercicio 1: <a href="https://b81f0f2e-2455-486d-a06b-a06457a21637-00-2pgdehr7l9gwp.picard.replit.dev/">Ejercicio 1</a></li>
-    <li>Ejercicio 2: <a href="https://c6c93149-7533-4936-bb19-99a557effddd-00-vwj5q2i9l4qu.picard.replit.dev/">Ejercicio 2</a></li>
-    <li>Ejercicio 3: <a href="https://f7335181-b6a1-482e-99b1-f921c00ab1c0-00-2beo6drftkdk2.riker.replit.dev/">Ejercicio 3</a></li>
-    <li>Ejercicio 4: <a href="https://0fba4cb2-a707-4928-8712-788b30cdbb80-00-32d8ivfmtaaux.riker.replit.dev/">Ejercicio 4</a></li>
-    <li>Ejercicio 5: <a href="https://3cf9a9af-76c7-4467-a6a3-b18678a566fa-00-1okjyg5oqspil.worf.replit.dev/">Ejercicio 5</a></li>
-    <li>Ejercicio 6: <a href="https://75bab905-4cb1-43bb-bf3e-f7bc0d042d8c-00-f4hetx65368.riker.replit.dev/">Ejercicio 6</a></li>
-    <li>Ejercicio 6.1: <a href="https://4a10e4d9-dfbe-4d5b-aace-fe62a9c0f4bb-00-3lneqecxiupzz.picard.replit.dev/">Ejercicio 6.1</a></li>
-    <li>Ejercicio 7: <a href="https://f9c43e8f-99b7-479b-9c8b-143fcc6b6fcb-00-2pnh8xkbrdm85.picard.replit.dev/">Ejercicio 7</a></li>
+    <li> Ejercicio 1: <a href="TIC-II/Ejerc 1.html">Ejercicio 1</a></li>
+    <li>Ejercicio 2: <a href="TIC-II/html-ejerc2-poema.html">Ejercicio 2</a></li>
+    <li>Ejercicio 3: <a href="TIC-II/html-ejerc3-enfasis.html">Ejercicio 3</a></li>
+    <li>Ejercicio 4: <a href="TIC-II/html-ejerc4-listas.html">Ejercicio 4</a></li>
+    <li>Ejercicio 5: <a href="TIC-II/html-ejerc5-utf-8.html">Ejercicio 5</a></li>
+    <li>Ejercicio 6: <a href="TIC-II/html-ejerc6-img.html">Ejercicio 6</a></li>
+    <li>Ejercicio 6.1: <a href="TIC-II/html-ejerc6-poema.html"">Ejercicio 6.1</a></li>
+    <li>Ejercicio 7: <a href="TIC-II/html-ejerc7-viaje.html">Ejercicio 7</a></li>
+  </ol>
+
+  <h2>Ejercicios de Java Script</h2>
+  <h2>Ejercicios de Java Script</h2>
+  <ol>
+    <li>Ejercicio 1: <a href="TIC-II/js-ejerc01-primer_programa.html">Ejercicio 1</a></li>
+    <li>Ejercicio 2: <a href="TIC-II/js-ejerc02-variable-y-tipos.html">Ejercicio 2</a></li>
+    <li>Ejercicio 3: <a href="TIC-II/js-ejerc03-operadores-binarios.html">Ejercicio 3</a></li>
+    <li>Ejercicio 4: <a href="TIC-II/js-ejerc04-operadores-binarios-logicos.html">Ejercicio 4</a></li>
+    <li>Ejercicio 5: <a href="TIC-II/js-ejerc05-cadenas-de-caracteres.html">Ejercicio 5</a></li>
+    <li>Ejercicio 6: <a href="TIC-II/js-ejerc06-estructuras_condicionales-1.html">Ejercicio 6</a></li>
+    <li>Ejercicio 7: <a href="TIC-II/js-ejerc08-estructuras_condicionales.html">Ejercicio 7</a></li>
+    <li>Ejercicio 8: <a href="TIC-II/js-ejerc08-heladeria.html">Ejercicio 8</a></li>
+    <li>Ejercicio 9: <a href="TIC-II/js-ejerc09-funciones.html">Ejercicio 9</a></li>
+    <li>Ejercicio 9.1: <a href="TIC-II/js-ejerc09-funciones.html (1).html">Ejercicio 9</a></li>
+    <li>Ejercicio 9.2: <a href="TIC-II/js-ejerc09-heladeria_funcion.html">Ejercicio 9</a></li>
+    <li>Ejercicio 10: <a href="TIC-II/js-ejerc10-bucle-while.html">Ejercicio 10</a></li>
+    <li>Ejercicio 11: <a href="TIC-II/js-ejerc11-bucle-for.html">Ejercicio 11</a></li>
+    <li>Ejercicio 12: <a href="TIC-II/js-ejerc12-getelemetbyid.html">Ejercicio 12</a></li>
   </ol>
 
 </body>
