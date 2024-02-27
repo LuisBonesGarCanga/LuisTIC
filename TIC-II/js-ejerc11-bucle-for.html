@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+</head>
+<body>
+    <h2>Ingresa un número</h2>
+    <input type="text" id="numero">
+    <button onclick="mostrarTabla()">Mostrar Tabla</button>
+    <div id="tablaMultiplicar"></div>
+
+    <h2>Ingresa un número</h2>
+    <input type="text" id="numeroFactorial">
+    <button onclick="calcularFactorial()">Calcular Factorial</button>
+    <div id="resultadoFactorial"></div>
+
+    <h2>INgresa una frase</h2>
+    <input type="text" id="textoVocales">
+    <button onclick="contarVocales()">Contar Vocales</button>
+    <div id="resultadoVocales"></div>
+
+    <script>
+        function mostrarTabla() {
+            var numero = parseInt(document.getElementById("numero").value);
+            var tablaHTML = "<h3>Tabla de Multiplicar de " + numero + "</h3><ul>";
+            for (var i = 1; i <= 10; i++) {
+                tablaHTML += "<li>" + numero + " x " + i + " = " + (numero * i) + "</li>";
+            }
+            tablaHTML += "</ul>";
+            document.getElementById("tablaMultiplicar").innerHTML = tablaHTML;
+        }
+
+        function calcularFactorial() {
+            var numero = parseInt(document.getElementById("numeroFactorial").value);
+            var factorial = 1;
+            for (var i = 2; i <= numero; i++) {
+                factorial *= i;
+            }
+            document.getElementById("resultadoFactorial").innerHTML = "<p>El factorial de " + numero + " es: " + factorial + "</p>";
+        }
+
+        function contarVocales() {
+            var texto = document.getElementById("textoVocales").value.toLowerCase();
+            var contador = 0;
+            for (var i = 0; i < texto.length; i++) {
+                var letra = texto[i];
+                if (letra === 'a' || letra === 'e' || letra === 'i' || letra === 'o' || letra === 'u') {
+                    contador++;
+                }
+            }
+            document.getElementById("resultadoVocales").innerHTML = "<p>El número de vocales en el texto es: " + contador + "</p>";
+        }
+    </script>
+</body>
+</html>

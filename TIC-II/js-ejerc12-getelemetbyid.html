@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+</head>
+<body>
+    <h1>Esto es un título</h1>
+
+    <p id="modi">Este es el párrafo a modificar</p>
+
+    <script>
+        const modi = document.getElementById("modi");
+
+        
+        const numeroTabla = 5; 
+        let tablaMultiplicarHTML = "<h2>Tabla de Multiplicar de " + numeroTabla + "</h2><ul>";
+        for (let i = 1; i <= 10; i++) {
+            tablaMultiplicarHTML += "<li>" + numeroTabla + " x " + i + " = " + (numeroTabla * i) + "</li>";
+        }
+        tablaMultiplicarHTML += "</ul>";
+
+        
+        const numeroFactorial = 6; 
+        let factorial = 1;
+        for (let i = 2; i <= numeroFactorial; i++) {
+            factorial *= i;
+        }
+        const resultadoFactorialHTML = "<p>El factorial de " + numeroFactorial + " es: " + factorial + "</p>";
+
+        
+        const textoVocales = "Hola mundo"; 
+        let contadorVocales = 0;
+        for (let i = 0; i < textoVocales.length; i++) {
+            const letra = textoVocales[i].toLowerCase();
+            if (letra === 'a' || letra === 'e' || letra === 'i' || letra === 'o' || letra === 'u') {
+                contadorVocales++;
+            }
+        }
+        const resultadoVocalesHTML = "<p>El número de vocales en el texto es: " + contadorVocales + "</p>";
+
+        
+        modi.innerHTML = tablaMultiplicarHTML + resultadoFactorialHTML + resultadoVocalesHTML;
+    </script>
+</body>
+</html>

@@ -1,0 +1,43 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Heladería</title>
+</head>
+<body>
+    <script>
+        var size = prompt("Elije tamaño de helado: pequeño (1€), mediano (2€) o grande (3€)");
+        var flavor = prompt("Elije sabor de helado: chocolate, vainilla, fresa o pistacho");
+        var topping = prompt("Elije topping: chocolate líquido, nata, fideos de colores o frutas");
+        var price = 0;
+        if (size === "pequeño") {
+            price += 1;
+        } else if (size === "mediano") {
+            price += 2;
+        } else if (size === "grande") {
+            price += 3;
+        }
+        if (flavor === "chocolate" || flavor === "vainilla") {
+            price += 1;
+        }
+        if (topping === "chocolate líquido" || topping === "nata") {
+            price += 0.3;
+        } else {
+            price += 0.5;
+        }
+        document.write("<h1>Precio total: " + price + "€</h1>");
+        var icecreamImg = document.createElement("img");
+        icecreamImg.setAttribute("src", "default.jpg");
+        document.body.appendChild(icecreamImg);
+        if (flavor === 'chocolate') {
+            icecreamImg.setAttribute("src", "https://vectorportal.com/storage/chocolate-ice-cream-vector.jpg");
+        } else if (flavor === 'vainilla') {
+            icecreamImg.setAttribute("src", "https://vectorportal.com/storage/nHCMqG7E59duIxHw1G1ThxrdPAkOAg1zdBDazEAo.jpg");
+        } else if (flavor === 'fresa') {
+            icecreamImg.setAttribute("src", "https://vectorportal.com/storage/ice-cream-2-vectorportal.jpg");
+        } else if (flavor === 'pistacho') {
+            icecreamImg.setAttribute("src", "https://vectorportal.com/storage/kiwi-ice-cream-cc0.jpg");
+        }
+    </script>
+</body>
+</html>
