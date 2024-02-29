@@ -36,10 +36,43 @@
     #ejercicios-css h2 {
       font-family: "Arial Black", sans-serif;
     }
+
+    #mejores-webs {
+      border-style: dashed;
+      border-width: 5px;
+      border-color: rgba(255, 255, 255, 0.5);
+      border-radius: 10px;
+      padding: 10px;
+      margin-top: 20px;
+    }
+
+    .boton {
+      text-decoration: none;
+      color: white;
+      background-color: orange;
+      padding: 10px 20px;
+      border-radius: 5px;
+      transition: background-color 0.3s ease;
+    }
+
+    .boton:hover {
+      background-color: black;
+    }
+
+    #indice {
+      text-align: center;
+    }
   </style>
 </head>
 
 <body>
+  <h1 id="indice">Enlace a todas las secciones de mi página</h1>
+  <ol>
+    <li><a href="#datos-personales" class="boton">Datos Personales</a></li> <br>
+    <li><a href="#ejercicios-html" class="boton">Ejercicios introducción HTML</a></li> <br>
+    <li><a href="#ejercicios-css" class="boton">Ejercicios introducción CSS</a></li> <br>
+    <li><a href="#ejercicios-Java" class="boton">Ejercicios introducción a JavaScript</a></li> <br>
+  </ol>
   <div id="datos-personales">
     <h1>Mi Trabajo en TIC II Luis García Canga</h1>
     <p>Me llamo Luis García Canga y tengo 16 años. Soy de Marcenado, Asturias, España.
@@ -47,50 +80,59 @@
       extrovertido con ganas de aprender y conocer mujeres con mas de 40 años.</p>
   </div>
 
-  <div id="ejercicios-html">
-    <h2>Ejercicios introducción HTML</h2>
-    <ol>
-      <li>Ejercicio 1: <a href="https://github.com/tuusuario/tuproyecto/blob/main/TIC-II/js-ejerc01-primer_programa.html">Ejercicio 1</a></li>
-      <li>Ejercicio 2: <a href="TIC-II/html-ejerc2-poema.html">Ejercicio 2</a></li>
-      <li>Ejercicio 3: <a href="TIC-II/html-ejerc3-enfasis.html">Ejercicio 3</a></li>
-      <li>Ejercicio 4: <a href="TIC-II/html-ejerc4-listas.html">Ejercicio 4</a></li>
-      <li>Ejercicio 5: <a href="TIC-II/html-ejerc5-utf-8.html">Ejercicio 5</a></li>
-      <li>Ejercicio 6: <a href="TIC-II/html-ejerc6-img.html">Ejercicio 6</a></li>
-      <li>Ejercicio 6.1: <a href="TIC-II/html-ejerc6-poema.html">Ejercicio 6.1</a></li>
-      <li>Ejercicio 7: <a href="TIC-II/html-ejerc7-viaje.html">Ejercicio 7</a></li>
-      <li>Ejercicio 8: <a href="TIC-II/html-ejerc7-viaje.html">Ejercicio 8</a></li>
-      <li>Ejercicio 9: <a href="TIC-II/html-ejerc9-criatura.html">Ejercicio 9</a></li>
-      <li>Ejercicio 10: <a href="TIC-II/html-ejerc10-criatura2.html">Ejercicio 10</a></li>
-      <li>Ejercicio 11: <a href="TIC-II/html-ejerc11-formato.html">Ejercicio 11</a></li>
-      <li>Ejercicio 12: <a href="TIC-II/html-ejerc12-Olafs.html">Ejercicio 12</a></li>
-      <li>Ejercicio 13: <a href="TIC-II/html-ejerc13-clases.html">Ejercicio 13</a></li>
-      <li>Ejercicio 14: <a href="TIC-II/html-ejerc14-desafio-clases.html">Ejercicio 14</a></li>
-      <li>Ejercicio 15: <a href="TIC-II/html-ejerc15-selectores.html">Ejercicio 15</a></li>
-      <li>Ejercicio 16: <a href="TIC-II/html-ejer16.html">Ejercicio 16</a></li>
-      <li>Ejercicio 18: <a href="TIC-II/html-ejer16.html">Ejercicio 16</a></li>
-    </ol>
-  </div>
+       <div id="ejercicios-html">
+           <h2>Ejercicios introducción HTML</h2>
+           <ol>
+             <li>Ejercicio 1: <a href="https://github.com/tuusuario/tuproyecto/blob/main/TIC-II/js-ejerc01-primer_programa.html">Ejercicio 1</a></li>
+             <li>Ejercicio 2: <a href="TIC-II/html-ejerc2-poema.html">Ejercicio 2</a></li>
+             <li>Ejercicio 3: <a href="TIC-II/html-ejerc3-enfasis.html">Ejercicio 3</a></li>
+             <li>Ejercicio 4: <a href="TIC-II/html-ejerc4-listas.html">Ejercicio 4</a></li>
+             <li>Ejercicio 5: <a href="TIC-II/html-ejerc5-utf-8.html">Ejercicio 5</a></li>
+             <li>Ejercicio 6: <a href="TIC-II/html-ejerc6-img.html">Ejercicio 6</a></li>
+             <li>Ejercicio 6.1: <a href="TIC-II/html-ejerc6-poema.html">Ejercicio 6.1</a></li>
+             <li>Ejercicio 7: <a href="TIC-II/html-ejerc7-viaje.html">Ejercicio 7</a></li>
+           </ol>
+       </div>
 
-  <div id="ejercicios-Java">
-    <h2>Ejercicios introducción a JavaScript</h2>
-    <ol>
-      <li>Ejercicio 1: <a href="TIC-II/js-ejerc01-primer_programa.html">Ejercicio 1</a></li>
-      <li>Ejercicio 2: <a href="TIC-II/js-ejerc02-variable-y-tipos.html">Ejercicio 2</a></li>
-      <li>Ejercicio 3: <a href="TIC-II/js-ejerc03-operadores-binarios.html">Ejercicio 3</a></li>
-      <li>Ejercicio 4: <a href="TIC-II/js-ejerc04-operadores-binarios-logicos.html">Ejercicio 4</a></li>
-      <li>Ejercicio 5: <a href="TIC-II/js-ejerc05-cadenas-de-caracteres.html">Ejercicio 5</a></li>
-      <li>Ejercicio 6: <a href="TIC-II/js-ejerc06-estructuras_condicionales-1.html">Ejercicio 6</a></li>
-      <li>Ejercicio 7: <a href="TIC-II/js-ejerc08-estructuras_condicionales.html">Ejercicio 7</a></li>
-      <li>Ejercicio 8: <a href="TIC-II/js-ejerc08-heladeria.html">Ejercicio 8</a></li>
-      <li>Ejercicio 9: <a href="TIC-II/js-ejerc09-funciones.html">Ejercicio 9</a></li>
-      <li>Ejercicio 9.1: <a href="TIC-II/js-ejerc09-funciones.html (1).html">Ejercicio 9</a></li>
-      <li>Ejercicio 9.2: <a href="TIC-II/js-ejerc09-heladeria_funcion.html">Ejercicio 9</a></li>
-      <li>Ejercicio 10: <a href="TIC-II/js-ejerc10-bucle-while.html">Ejercicio 10</a></li>
-      <li>Ejercicio 11: <a href="TIC-II/js-ejerc11-bucle-for.html">Ejercicio 11</a></li>
-      <li>Ejercicio 12: <a href="https://replit.com/@luisgarciacanga/TIC-II-Luis-Garc-a-Canga-1#TIC-II/js-ejerc12-getelemetbyid.html">Ejercicio 12</a></li>
-    </ol>
-  </div>
+       <div id= "ejercicios-css">
+           <h2>Ejercicios introducción CSS</h2>
+           <ol>
+             <li>Ejercicio 8: <a href="TIC-II/html-ejerc7-viaje.html">Ejercicio 8</a></li>
+             <li>Ejercicio 9: <a href="TIC-II/html-ejerc9-criatura.html">Ejercicio 9</a></li>
+             <li>Ejercicio 10: <a href="TIC-II/html-ejerc10-criatura2.html">Ejercicio 10</a></li>
+             <li>Ejercicio 11: <a href="TIC-II/html-ejerc11-formato.html">Ejercicio 11</a></li>
+             <li>Ejercicio 12: <a href="TIC-II/html-ejerc12-Olafs.html">Ejercicio 12</a></li>
+             <li>Ejercicio 13: <a href="TIC-II/html-ejerc13-clases.html">Ejercicio 13</a></li>
+             <li>Ejercicio 14: <a href="TIC-II/html-ejerc14-desafio-clases.html">Ejercicio 14</a></li>
+             <li>Ejercicio 15: <a href="TIC-II/html-ejerc15-selectores.html">Ejercicio 15</a></li>
+             <li>Ejercicio 16: <a href="TIC-II/html-ejer16.html">Ejercicio 16</a></li>
+             <li>Ejercicio 18: <a href="TIC-II/html-ejerc18-vinculos.html">Ejercicio 18</a></li>
+             <li>Ejercicio 19: <a href="TIC-II/html-ejerc19-vinculos_internos.html">Ejercicio 19</a></li>
+           </ol>
+       </div>
+
+       <div id="ejercicios-Java">
+           <h2>Ejercicios introducción a JavaScript</h2>
+           <ol>
+             <li>Ejercicio 1: <a href="TIC-II/js-ejerc01-primer_programa.html">Ejercicio 1</a></li>
+             <li>Ejercicio 2: <a href="TIC-II/js-ejerc02-variable-y-tipos.html">Ejercicio 2</a></li>
+             <li>Ejercicio 3: <a href="TIC-II/js-ejerc03-operadores-binarios.html">Ejercicio 3</a></li>
+             <li>Ejercicio 4: <a href="TIC-II/js-ejerc04-operadores-binarios-logicos.html">Ejercicio 4</a></li>
+             <li>Ejercicio 5: <a href="TIC-II/js-ejerc05-cadenas-de-caracteres.html">Ejercicio 5</a></li>
+             <li>Ejercicio 6: <a href="TIC-II/js-ejerc06-estructuras_condicionales-1.html">Ejercicio 6</a></li>
+             <li>Ejercicio 7: <a href="TIC-II/Ejercicio 07.html">Ejercicio 7</a></li>
+             <li>Ejercicio 8: <a href="TIC-II/js-ejerc08-estructuras_condicionales.html">Ejercicio 8</a></li>
+             <li>Ejercicio 8.1: <a href="TIC-II/js-ejerc08-heladeria.html">Ejercicio 8.1</a></li>
+             <li>Ejercicio 9: <a href="TIC-II/js-ejerc09-funciones.html">Ejercicio 9</a></li>
+             <li>Ejercicio 9.1: <a href="TIC-II/js-ejerc09-funciones.html (1).html">Ejercicio 9.1</a></li>
+             <li>Ejercicio 9.2: <a href="TIC-II/js-ejerc09-heladeria_funcion.html">Ejercicio 9.2</a></li>
+             <li>Ejercicio 10: <a href="TIC-II/js-ejerc10-bucle-while.html">Ejercicio 10</a></li>
+             <li>Ejercicio 11: <a href="TIC-II/js-ejerc11-bucle-for.html">Ejercicio 11</a></li>
+             <li>Ejercicio 12: <a href="https://replit.com/@luisgarciacanga/TIC-II-Luis-Garc-a-Canga-1#TIC-II/js-ejerc12-getelemetbyid.html">Ejercicio 12</a></li>
+           </ol>
+       </div>
 
 </body>
 
 </html>
+
